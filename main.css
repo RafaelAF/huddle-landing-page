@@ -1,0 +1,293 @@
+:root{
+    --base-pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+    --very-dark: hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
+}
+
+
+.main-container > .content{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content .div-content h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    margin: 100px 0 20px 0;
+}
+
+.content .div-content p{
+    font-size: 1rem;
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.content .div-content button{
+    font-size: 1rem;
+    padding: 15px 55px;
+    border-radius: 30px;
+    border: 0;
+    background-color: var(--base-pink);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 20px 0 60px 0;
+    box-shadow: 0px 5px 15px #b6b6b6;
+}
+
+.content .div-content button:hover{
+    background-color: var(--light-pink);
+
+}
+.content-2 img{
+    width: 80%;
+}
+
+.content-3{
+    display: flex;
+    /* background-color: red; */
+    /* margin: 0 auto; */
+    justify-content: space-evenly;
+    padding: 90px 120px;
+    /* margin: 100px 0; */
+}
+.content-3 .flex-side{
+    max-width: 250px;
+}
+.content-3 .flex-side div:nth-child(1){
+    /* background-color: red; */
+    display: flex;
+}
+.content-3 .flex-side h3{
+    font-size: 5rem;
+}
+.content-3 .flex-side p{
+    color: #999;
+}
+
+.content-4 .grow-together-content{
+    background-color: var(--very-pale-blue);
+    display: flex;
+}
+.content-4 .grow-together-content .grow-together-texts{
+    flex: 1;
+    align-self: center;
+    text-align: start;
+}
+.content-4 .grow-together-content .grow-together-texts div{
+    padding:  0 100px;
+}
+.content-4 .grow-together-content .grow-together-texts div h2{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    color: var(--very-dark);
+}
+
+.content-4 .grow-together-content div:nth-child(2){
+    flex: 1;
+}
+.content-4 .grow-together-content div:nth-child(2) img{
+    width: 70%;
+}
+
+
+.content-4 .svg-top{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url(/images/bg-section-top-desktop-1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.content-4 .svg-bottom{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url(/images/bg-section-bottom-desktop-1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.content-5{
+    padding: 150px 0;
+    /* background-color: red; */
+}
+
+.content-5 .flowing-conversations{
+    
+    display: flex;
+    /* margin: 50px 0; */
+}
+
+.content-5 .flowing-conversations div:nth-child(1){
+    flex: 1;
+    /* background-color: red; */
+}
+.content-5 .flowing-conversations div:nth-child(1) img{
+    width: 70%;
+}
+.content-5 .flowing-conversations .flowing-conversations-texts{
+    flex: 1;
+    align-self: center;
+    text-align: start;
+    /* background-color: blue; */
+}
+.content-5 .flowing-conversations .flowing-conversations-texts div{
+    padding:  0 100px;
+}
+
+.content-5 .flowing-conversations .flowing-conversations-texts div h2{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    color: var(--very-dark);
+}
+.content-6 .your-users{
+    background-color: var(--very-pale-blue);
+    display: flex;
+}
+
+.content-6 .your-users .yout-users-texts{
+    flex: 1;
+    align-self: center;
+    text-align: start;
+}
+.content-6 .your-users .yout-users-texts div{
+    padding: 0 100px;
+}
+.content-6 .your-users .yout-users-texts div h2{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    color: var(--very-dark);
+    /* color: red; */
+}
+.content-6 .your-users div:nth-child(2){
+    flex: 1;
+}
+.content-6 .your-users div:nth-child(2) img{
+    width: 70%;
+}
+
+.content-6 .svg-top{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url(/images/bg-section-top-desktop-2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.content-6 .svg-bottom{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url(/images/bg-section-bottom-desktop-2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.content-7{
+    /* background-color: red; */
+    padding: 100px 0;
+}
+
+.content-7 div .ready-to-build-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: var(--very-dark);
+    margin-bottom: 20px;
+}
+
+.content-7 div .get-started-btn{
+    background-color: var(--base-pink);
+    border: 0;
+    padding: 20px 100px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.content-7 div .get-started-btn:hover{
+    background-color: var(--light-pink);
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 785px) {
+    .content .div-content h1{
+        font-size: 1.8rem;
+        margin: 60px 0 20px 0;
+        padding: 0 50px;
+    }
+    .content .div-content p{
+        padding: 0 60px;
+    }
+    .content-3 {
+        flex-direction: column;
+        padding: 90px 120px 0;
+        gap: 100px;
+        align-items: center;
+    }
+    .content-4 .grow-together-content{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .content-4 .grow-together-content .grow-together-texts{
+        text-align: center;
+    }
+    /* .content-4 .grow-together-content .grow-together-texts div p{
+        padding: 0 50px;
+    } */
+    .content-4 .grow-together-content .grow-together-texts div{
+        padding: 0 15px;
+    }
+    .content-5 .flowing-conversations{
+        flex-direction: column;
+    }
+    .content-5 .flowing-conversations .flowing-conversations-texts {
+        text-align: center;
+    }
+    .content-5 .flowing-conversations .flowing-conversations-texts div{
+        padding:  0 15px;
+    }
+    .content-6 .your-users{
+        flex-direction: column-reverse;
+    }
+    .content-6 .your-users .yout-users-texts{
+        text-align: center;
+    }
+    .content-4 .svg-top{
+        background-image: url(/images/bg-section-top-mobile-1.svg);
+    }
+    .content-4 .svg-bottom{
+        background-image: url(/images/bg-section-bottom-mobile-1.svg);
+    }
+    .content-4 .grow-together-content div:nth-child(2) img{
+        margin-bottom: 40px;
+    }
+    .content-5 .flowing-conversations div:nth-child(1) img{
+        margin-bottom: 40px;
+    }
+    .content-6 .svg-top{
+        background-image: url(/images/bg-section-top-mobile-2.svg);
+    }
+    .content-6 .svg-bottom{
+        background-image: url(/images/bg-section-bottom-mobile-2.svg);
+    }
+    .content-6 .your-users div:nth-child(2) img{
+        margin-bottom: 40px;
+    }
+}
